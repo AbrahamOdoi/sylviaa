@@ -5,6 +5,7 @@
 		// alert('My device is ready');
 
 		function read_contacts() {
+			alert('sdas');
 			var options = new ContactFindOptions();
 			options.filter = "";
 			options.filter = "";
