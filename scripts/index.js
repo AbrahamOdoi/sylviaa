@@ -9,7 +9,7 @@
 				for (var j = 0; j < contacts[i].phoneNumbers.length; j++) {
 					var phone = contacts[i].phoneNumbers[j];
 					console.log("===> " + phone.type + "  " + phone.number + " (" + phone.normalizedNumber + ")");
-					alert(phone);
+					$("#displaycontact").
 				}
 			}
 		}, function(error) {
