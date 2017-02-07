@@ -4,7 +4,7 @@
 	function onDeviceReady() {
 		// alert('My device is ready');
 
-		function read_contacts() {
+		document.getElementById("geolocationbtn").addEventListener("click", function() {
 			alert('sdas');
 			var options = new ContactFindOptions();
 			options.filter = "";
@@ -13,7 +13,7 @@
 			var fields = ["*"];
 			//"*" will return all contact fields
 			navigator.contacts.find(fields, onSuccess, onError, options);
-		}
+		});
 
 		// display the address information for all contacts
 		function onSuccess(contacts) {
