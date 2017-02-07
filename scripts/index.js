@@ -8,11 +8,11 @@
 			alert('sdas');
 			var options = new ContactFindOptions();
 			options.filter = "";
-			options.filter = "";
+			//Can i pass something here to pick only contacts with phone number
 			options.multiple = true;
-			var fields = ["*"];
-			//"*" will return all contact fields
+			var fields = ["displayName", "phoneNumbers"];
 			navigator.contacts.find(fields, onSuccess, onError, options);
+
 		});
 
 		// display the address information for all contacts
