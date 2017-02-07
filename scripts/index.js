@@ -34,7 +34,8 @@
 				}
 				li += '<li style="text-decoration:none;">' + name + ' ' + phone + '</li>';
 			});
-
+			alert('sdj');
+			alert(li);
 			$("#contact").html(li);
 		}
 
